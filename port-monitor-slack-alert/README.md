@@ -1,4 +1,4 @@
-# 🛰️ Port Monitor with Slack Alerts
+# Port Monitor with Slack Alerts
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -7,26 +7,26 @@ A Python tool that monitors the availability of specific TCP ports and sends ale
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 Scans specific TCP ports on domains/IPs
-- 🔔 Sends Slack alerts when a port is unreachable
-- 📝 Logs port status to a local file (`monitor_log.txt`)
-- 📁 Uses `.env` file for safe config management
-- ✅ Easy to run with or without virtual environment
+- Scans specific TCP ports on domains/IPs
+- Sends Slack alerts when a port is unreachable
+- Logs port status to a local file (`monitor_log.txt`)
+- Uses `.env` file for safe config management
+- Easy to run with or without virtual environment
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
-### ✅ Option 1: Without Virtual Environment (Quick Run)
+### Option 1: Without Virtual Environment (Quick Run)
 
 ```bash
 pip install -r requirements.txt
 python monitor.py
 ```
 
-### ✅ Option 2: Recommended (With Virtual Environment)
+### Option 2: Recommended (With Virtual Environment)
 
 ```bash
 # Create virtual environment
@@ -45,7 +45,7 @@ python monitor.py
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Create a `.env` file in the same directory with this content:
 
@@ -55,9 +55,9 @@ SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your/webhook/url
 
 ---
 
-## 🖼️ Results
+## Results
 
-### ✅ Terminal Log Output
+### Terminal Log Output
 
 This is an example of the console output when ports are up or down:
 
@@ -65,7 +65,7 @@ This is an example of the console output when ports are up or down:
 
 ---
 
-### 🚨 Slack Alert Notification
+### Slack Alert Notification
 
 This shows a real-time alert in a Slack channel when a port is down:
 
@@ -73,7 +73,7 @@ This shows a real-time alert in a Slack channel when a port is down:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 port-monitor-slack-alert/
@@ -88,7 +88,7 @@ port-monitor-slack-alert/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - `requests` – HTTP request handling
 - `python-dotenv` – Load environment variables from `.env`
@@ -105,7 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📚 Resources
+## Resources
 
 This project was inspired and built using knowledge gained from:
 
