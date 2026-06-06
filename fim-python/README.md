@@ -1,10 +1,10 @@
-# 🔒 File Integrity Monitoring (FIM) with Python
+# File Integrity Monitoring (FIM) with Python
 
 This is a simple File Integrity Monitoring (FIM) application built in Python. It checks whether critical system files have been changed or deleted by comparing SHA-256 hashes.
 
 ---
 
-## 📌 Features
+## Features
 
 - Monitors critical files like `/etc/passwd`, `/etc/shadow`, or your own test files
 - Detects file changes using SHA-256 hashes
@@ -14,17 +14,17 @@ This is a simple File Integrity Monitoring (FIM) application built in Python. It
 
 ---
 
-## 🖥️ Demo Screenshots
+## Demo Screenshots
 
-### ✅ File Change Detected
+### File Change Detected
 ![File Change Detected](images/terminal-output.png)
 
-### ⚠️ Missing File Alert
+### Missing File Alert
 ![Missing File](images/missing-file.png)
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### 1. Clone the Repository
 
@@ -67,7 +67,7 @@ files_to_watch = ["/etc/passwd", "/etc/shadow", "your_file.txt"]
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 fim-python/
@@ -81,7 +81,7 @@ fim-python/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 No external libraries are needed:
 
@@ -97,7 +97,7 @@ pip install requests
 
 ---
 
-## 🔮 Future Features
+## Future Features
 
 - Logging to a file
 - Slack or email alerts
@@ -106,7 +106,7 @@ pip install requests
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Akhi-hecker**
 
