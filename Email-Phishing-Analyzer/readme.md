@@ -1,10 +1,10 @@
-# 🛡️ Phishing Email Analyzer
+# Phishing Email Analyzer
 
 A web-based tool to analyze `.eml` email files for phishing indicators. Simply upload an email file, and the tool will generate a detailed report and a phishing risk score based on sender, header, URLs, IPs, and attachments.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 phishing_analyzer_project/
@@ -30,7 +30,7 @@ phishing_analyzer_project/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ### 1. Python
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Optional API Keys
+## Optional API Keys
 
 To enable full functionality (IP and attachment reputation checks), you can add:
 
@@ -74,7 +74,7 @@ VT_API_KEY = "YOUR_VIRUSTOTAL_API_KEY"
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Step 1: Clone the Repository
 
@@ -106,7 +106,7 @@ Edit `settings.py` and add your AbuseIPDB and VirusTotal API keys.
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 1. Make sure your virtual environment is activated.
 2. Run the Flask app:
@@ -120,7 +120,7 @@ python app.py
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 - Upload a `.eml` email file on the homepage.
 - Click **"Analyze Email"**.
@@ -129,26 +129,26 @@ python app.py
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 📥 Upload Email File
+### Upload Email File
 ![Upload Page](static/images/upload_page.png)
 
-### 📊 Analysis Results with Risk Score
+### Analysis Results with Risk Score
 ![Result Page](static/images/result_page.png)
 
-### 📄 Option to Download Report
+### Option to Download Report
 ![Download Report](static/images/report_download.png)
 
 ---
 
-## ❌ To Stop the App
+## To Stop the App
 
 Press `CTRL+C` in the terminal.
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
